@@ -32,6 +32,8 @@
     <suppress checks="MethodNameCheck" files=".*/*CommandProvider.java" />
     <suppress checks="Regexp" files=".*/*CommandProvider.java" />
 
+    <!--swagger maven plugin generated code-->
+    <suppress checks="JavadocStyle" files=".*/src/gen/java/.*" />
 
     <!-- copied from apache hadoop, won't fix style to keep diff minimal -->
     <suppress checks=".*" files=".*/LocalJobRunnerWithFix.java" />
